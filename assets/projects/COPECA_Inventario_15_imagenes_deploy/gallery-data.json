@@ -1,0 +1,152 @@
+[
+  {
+    "file": "01-dashboard.png",
+    "source": "Polished Spanish Inventory Dashboard (2)(3).png",
+    "category": "Dashboard",
+    "title": "Panel general del sistema",
+    "description": "Vista general del dashboard con indicadores y movimientos recientes.",
+    "alt": "Panel general del sistema — vista demostrativa del sistema de inventario",
+    "sha256": "938229ba6ac5318cb9b41e145db4a10b63c801a197bcf9bf08a916d95532d1df",
+    "size": 1925470
+  },
+  {
+    "file": "02-entradas.png",
+    "source": "GEKOTAPES Inventory Entry Demo (1)(3).png",
+    "category": "Entradas",
+    "title": "Registro de ingresos",
+    "description": "Formulario de lotes maestros, costos, proveedor y tipo de cambio.",
+    "alt": "Registro de ingresos — vista demostrativa del sistema de inventario",
+    "sha256": "7fd5882d90dbe5cacc0f4e0f9837063dd8002ba39e0a9a621df1f40c2f2a7776",
+    "size": 1954714
+  },
+  {
+    "file": "03-transformaciones.png",
+    "source": "GEKOTAPES product transformation dashboard (1)(3).png",
+    "category": "Transformaciones",
+    "title": "Transformación de productos",
+    "description": "Formulario de transformación y resultados recientes.",
+    "alt": "Transformación de productos — vista demostrativa del sistema de inventario",
+    "sha256": "c41959405a202cdc06a0e5b48176d0d5ea12d3b06a5c33807667554a870a3233",
+    "size": 1800750
+  },
+  {
+    "file": "04-salidas.png",
+    "source": "GEKOTAPES demo sales register (1)(3).png",
+    "category": "Salidas",
+    "title": "Registro de salidas",
+    "description": "Movimientos de venta, documentos, medidas y responsables.",
+    "alt": "Registro de salidas — vista demostrativa del sistema de inventario",
+    "sha256": "550827f610204eee95bc8edcc47123c6e664ad4596ccd790d2b0780bcae23fb6",
+    "size": 1784245
+  },
+  {
+    "file": "05-inventario.png",
+    "source": "Inventory stock and filters showcase-1 (1)(3).png",
+    "category": "Inventario",
+    "title": "Existencias y filtros",
+    "description": "Saldos de lotes y transformados, filtros y controles de exportación.",
+    "alt": "Existencias y filtros — vista demostrativa del sistema de inventario",
+    "sha256": "97c86e79642d2f3a96f1be3b1ce99d84a2111e43ab13211fbb7c87ef79956f5a",
+    "size": 1963338
+  },
+  {
+    "file": "06-historiales.png",
+    "source": "GEKOTAPES inventory histories-2 (1)(2).png",
+    "category": "Inventario",
+    "title": "Historiales operativos",
+    "description": "Registros de ingresos, transformaciones y salidas.",
+    "alt": "Historiales operativos — vista demostrativa del sistema de inventario",
+    "sha256": "6da4c8d42e54c1651b5dce662d4f35a9fe6e173c39a1985e7af436e0cdf9d01c",
+    "size": 1905547
+  },
+  {
+    "file": "07-kardex.png",
+    "source": "Kardex screenshot with anonymized demo product-1.png",
+    "category": "Kardex",
+    "title": "Kardex por producto",
+    "description": "Búsqueda de producto y filtros por tipo de movimiento y fecha.",
+    "alt": "Kardex por producto — vista demostrativa del sistema de inventario",
+    "sha256": "58ff1e3dc803762a7d967a1887371b0315c0aeff11c3fa9381663196c0168ddd",
+    "size": 1682794
+  },
+  {
+    "file": "08-movimientos.png",
+    "source": "Demo inventory movement dashboard-3.png",
+    "category": "Kardex",
+    "title": "Historial de movimientos",
+    "description": "Detalle de ingresos y transformación con saldo acumulado.",
+    "alt": "Historial de movimientos — vista demostrativa del sistema de inventario",
+    "sha256": "7474824b49805488701eeaaa0db645a965a7692a43ced611d9f9440a4aa7b582",
+    "size": 1706785
+  },
+  {
+    "file": "09-excel.png",
+    "source": "Anonymized COPECA inventory export-6 (1).png",
+    "category": "Reportes",
+    "title": "Exportación de saldos",
+    "description": "Archivo Excel de existencias, costos y moneda en datos de demostración.",
+    "alt": "Exportación de saldos — vista demostrativa del sistema de inventario",
+    "sha256": "b4d48981dd5b725c0828428996900055d77e117050348b7414ffa5ae2aa25fa5",
+    "size": 2218096
+  },
+  {
+    "file": "10-analitica-general.png",
+    "source": "Transformation metrics dashboard screenshot-7.png",
+    "category": "Reportes",
+    "title": "Análisis y tendencias",
+    "description": "Gráficos de movimientos, distribución de existencias y evolución de ventas.",
+    "alt": "Análisis y tendencias — vista demostrativa del sistema de inventario",
+    "sha256": "2ecd7df48800b018f1d154a9fa001bb88418af55881a40400fe5069f778849c0",
+    "size": 2082172
+  },
+  {
+    "file": "11-mas-vendidos.png",
+    "source": "Demo sales dashboard with product chart-5.png",
+    "category": "Reportes",
+    "title": "Productos más vendidos",
+    "description": "Ranking por volumen y valor de ventas.",
+    "alt": "Productos más vendidos — vista demostrativa del sistema de inventario",
+    "sha256": "aa7c478c793fb8964e77d691a77a398b4b8c0c4d37250fb641d475392fdc109b",
+    "size": 1650041
+  },
+  {
+    "file": "12-proveedores.png",
+    "source": "Anonymized supplier composition dashboard-6.png",
+    "category": "Reportes",
+    "title": "Composición por proveedor",
+    "description": "Tabla de lotes, importes en soles y dólares, y estados de proveedores.",
+    "alt": "Composición por proveedor — vista demostrativa del sistema de inventario",
+    "sha256": "ba93b1df5d2f2dd04075c4c7f87c43e90dfee71f0abfb1fbcdc82736e1aa9513",
+    "size": 1677953
+  },
+  {
+    "file": "13-historial-producto.png",
+    "source": "Inventory lifecycle demo cards-3 (1)(2).png",
+    "category": "Inventario",
+    "title": "Trazabilidad integral",
+    "description": "Ciclo de vida de producto desde ingreso hasta transformación y salida.",
+    "alt": "Trazabilidad integral — vista demostrativa del sistema de inventario",
+    "sha256": "248ddb88877435d3b955418176973caf30dd6cc8623174f2b61979ae29de2870",
+    "size": 1985283
+  },
+  {
+    "file": "14-transformaciones-historial.png",
+    "source": "GEKOTAPES anonymized transformations table-4 (1).png",
+    "category": "Transformaciones",
+    "title": "Consumo y transformación",
+    "description": "Detalle histórico del consumo de material por transformación.",
+    "alt": "Consumo y transformación — vista demostrativa del sistema de inventario",
+    "sha256": "89d58b5c3da2a41574b55fb2e6f23c86f160054fcb002c02a5f96a67e7096400",
+    "size": 1795024
+  },
+  {
+    "file": "15-historial-transformados.png",
+    "source": "Inventory history of transformed products-4 (1)(1).png",
+    "category": "Inventario",
+    "title": "Historial de transformados",
+    "description": "Consulta del origen, producto resultante, salida y exportación.",
+    "alt": "Historial de transformados — vista demostrativa del sistema de inventario",
+    "sha256": "a3b6799bcc4a425b2c3c31c973767524ecd8e0c2c8273c89d115ba9cdc4c396b",
+    "size": 1958136
+  }
+]

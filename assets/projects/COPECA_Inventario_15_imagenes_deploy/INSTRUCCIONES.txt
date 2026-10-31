@@ -1,0 +1,9 @@
+COPECA INVENTARIO — PAQUETE DEFINITIVO
+
+Los 15 PNG son copias binarias idénticas a sus originales (sin rediseño ni recorte).
+Copiar la carpeta assets/projects/copeca-inventario/ al mismo lugar dentro de jeremyvg21.github.io.
+La página projects/copeca-inventario.html debe incluir los 15 registros del gallery-data.json en el bloque galleryData.
+Para actualizar GitHub Pages: subir imágenes y commit en main; el HTML enlazado ya está preparado mediante commit de esta conversación.
+Comprobar visualmente en desktop/móvil.
+Varias capturas muestran GEKOTAPES, una configuración relacionada documentada; aclararlo como material referencial.
+Las vistas muestran proveedores DEMO y cifras ficticias; comprobar autorización empresarial antes de publicar.
