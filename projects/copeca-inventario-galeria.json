@@ -1,94 +1,103 @@
 {
-  "proyecto": "COPECA — Sistema de Inventario y Producción",
-  "estado": "Selección realizada. Archivos PNG originales pendientes de poder subirse al repositorio de GitHub; no figuran aún en GitHub Pages.",
+  "proyecto": "COPECA — Sistema de Inventario, Producción y Administración de Productos",
   "fecha": "2026-10-31",
-  "objetivo_aproximado": 18,
-  "recibidas_esta_entrega": 18,
-  "seleccionadas": 9,
-  "integradas_en_github": 0,
-  "relacion_de_marca": "Varias capturas muestran GEKOTAPES; el repositorio privado InventarioCopeca contiene referencias a GEKOTAPES. Presentarlas como vistas demostrativas de esa configuración, no como capturas rotuladas COPECA.",
-  "originales_sin_modificar": true,
+  "estado": "Configuración de 15 imágenes y portada publicada como código. Los archivos PNG originales aún no están presentes en GitHub; se entregan por separado en ZIP listo para copiar al repositorio.",
+  "recibidas_en_dos_grupos": 23,
+  "seleccionadas": 15,
+  "subidas_a_github": 0,
+  "integracion": "Una vez transferidos los PNG al directorio assets/projects/copeca-inventario, el carrusel y la portada aparecen automáticamente sin otros cambios.",
+  "integridad": "Los 15 PNG del paquete conservan todos sus bytes originales.",
+  "confidencialidad": "Las capturas muestran datos DEMO, importes ficticios y, en varias, la marca GEKOTAPES de una configuración relacionada; verificar autorización de publicación empresarial.",
   "capturas": [
     {
-      "archivo_publicable": "assets/projects/copeca-inventario/01-dashboard-general.png",
-      "archivo_recibido": "Polished Spanish Inventory Dashboard (2)(3).png",
-      "categoria": "Dashboard",
-      "titulo": "Panel general de entradas, transformaciones, salidas, existencias y stock crítico",
-      "nota": "Vista compuesta; marca GEKOTAPES, datos demostrativos",
-      "estado": "pendiente de transferencia binaria a GitHub",
-      "privacidad": "revisión visual preliminar: datos marcados DEMO; no divulgar registros reales"
+      "file": "01-dashboard.png",
+      "category": "Dashboard",
+      "path": "assets/projects/copeca-inventario/01-dashboard.png",
+      "status": "en ZIP, pendiente de subir a GitHub"
     },
     {
-      "archivo_publicable": "assets/projects/copeca-inventario/02-registro-entradas.png",
-      "archivo_recibido": "GEKOTAPES Inventory Entry Demo (1)(3).png",
-      "categoria": "Entradas",
-      "titulo": "Formulario de ingreso de lotes maestros, moneda, costos y últimos registros",
-      "nota": "Composición demostrativa",
-      "estado": "pendiente de transferencia binaria a GitHub",
-      "privacidad": "revisión visual preliminar: datos marcados DEMO; no divulgar registros reales"
+      "file": "02-entradas.png",
+      "category": "Entradas",
+      "path": "assets/projects/copeca-inventario/02-entradas.png",
+      "status": "en ZIP, pendiente de subir a GitHub"
     },
     {
-      "archivo_publicable": "assets/projects/copeca-inventario/03-transformacion.png",
-      "archivo_recibido": "GEKOTAPES product transformation dashboard (1)(3).png",
-      "categoria": "Transformaciones",
-      "titulo": "Registro de corte o transformación con cálculo de consumos y últimos movimientos",
-      "nota": "Composición demostrativa",
-      "estado": "pendiente de transferencia binaria a GitHub",
-      "privacidad": "revisión visual preliminar: datos marcados DEMO; no divulgar registros reales"
+      "file": "03-transformaciones.png",
+      "category": "Transformaciones",
+      "path": "assets/projects/copeca-inventario/03-transformaciones.png",
+      "status": "en ZIP, pendiente de subir a GitHub"
     },
     {
-      "archivo_publicable": "assets/projects/copeca-inventario/04-registro-salidas.png",
-      "archivo_recibido": "GEKOTAPES demo sales register (1)(3).png",
-      "categoria": "Salidas",
-      "titulo": "Registro de salidas, destinatario, medidas, factura e historial",
-      "nota": "Composición demostrativa",
-      "estado": "pendiente de transferencia binaria a GitHub",
-      "privacidad": "revisión visual preliminar: datos marcados DEMO; no divulgar registros reales"
+      "file": "04-salidas.png",
+      "category": "Salidas",
+      "path": "assets/projects/copeca-inventario/04-salidas.png",
+      "status": "en ZIP, pendiente de subir a GitHub"
     },
     {
-      "archivo_publicable": "assets/projects/copeca-inventario/05-stock-y-filtros.png",
-      "archivo_recibido": "Inventory stock and filters showcase-1 (1)(3).png",
-      "categoria": "Inventario",
-      "titulo": "Existencias, productos transformados, búsqueda, filtros y exportación",
-      "nota": "Composición demostrativa",
-      "estado": "pendiente de transferencia binaria a GitHub",
-      "privacidad": "revisión visual preliminar: datos marcados DEMO; no divulgar registros reales"
+      "file": "05-inventario.png",
+      "category": "Inventario",
+      "path": "assets/projects/copeca-inventario/05-inventario.png",
+      "status": "en ZIP, pendiente de subir a GitHub"
     },
     {
-      "archivo_publicable": "assets/projects/copeca-inventario/06-historiales-operaciones.png",
-      "archivo_recibido": "GEKOTAPES inventory histories-2 (1)(2).png",
-      "categoria": "Inventario",
-      "titulo": "Historiales de ingresos, transformaciones y salidas",
-      "nota": "Composición demostrativa",
-      "estado": "pendiente de transferencia binaria a GitHub",
-      "privacidad": "revisión visual preliminar: datos marcados DEMO; no divulgar registros reales"
+      "file": "06-historiales.png",
+      "category": "Inventario",
+      "path": "assets/projects/copeca-inventario/06-historiales.png",
+      "status": "en ZIP, pendiente de subir a GitHub"
     },
     {
-      "archivo_publicable": "assets/projects/copeca-inventario/07-kardex-general.png",
-      "archivo_recibido": "Kardex screenshot with anonymized demo product-1.png",
-      "categoria": "Kardex",
-      "titulo": "Kardex por producto, búsqueda, rangos de fecha, filtros y exportación",
-      "nota": "Captura parcial; datos DEMO",
-      "estado": "pendiente de transferencia binaria a GitHub",
-      "privacidad": "revisión visual preliminar: datos marcados DEMO; no divulgar registros reales"
+      "file": "07-kardex.png",
+      "category": "Kardex",
+      "path": "assets/projects/copeca-inventario/07-kardex.png",
+      "status": "en ZIP, pendiente de subir a GitHub"
     },
     {
-      "archivo_publicable": "assets/projects/copeca-inventario/08-kardex-movimientos.png",
-      "archivo_recibido": "Demo inventory movement dashboard-3.png",
-      "categoria": "Kardex",
-      "titulo": "Trazabilidad de movimientos de ingreso y transformación con stock acumulado",
-      "nota": "Tabla demostrativa",
-      "estado": "pendiente de transferencia binaria a GitHub",
-      "privacidad": "revisión visual preliminar: datos marcados DEMO; no divulgar registros reales"
+      "file": "08-movimientos.png",
+      "category": "Kardex",
+      "path": "assets/projects/copeca-inventario/08-movimientos.png",
+      "status": "en ZIP, pendiente de subir a GitHub"
     },
     {
-      "archivo_publicable": "assets/projects/copeca-inventario/09-exportacion-excel.png",
-      "archivo_recibido": "Anonymized COPECA inventory export-6 (1).png",
-      "categoria": "Reportes",
-      "titulo": "Exportación de saldos actuales a Excel con proveedor, costo, existencias y moneda",
-      "nota": "Captura de WPS Office; filas DEMO y COPECA visible",
-      "estado": "pendiente de transferencia binaria a GitHub",
-      "privacidad": "revisión visual preliminar: datos marcados DEMO; no divulgar registros reales"
+      "file": "09-excel.png",
+      "category": "Reportes",
+      "path": "assets/projects/copeca-inventario/09-excel.png",
+      "status": "en ZIP, pendiente de subir a GitHub"
+    },
+    {
+      "file": "10-analitica-general.png",
+      "category": "Reportes",
+      "path": "assets/projects/copeca-inventario/10-analitica-general.png",
+      "status": "en ZIP, pendiente de subir a GitHub"
+    },
+    {
+      "file": "11-mas-vendidos.png",
+      "category": "Reportes",
+      "path": "assets/projects/copeca-inventario/11-mas-vendidos.png",
+      "status": "en ZIP, pendiente de subir a GitHub"
+    },
+    {
+      "file": "12-proveedores.png",
+      "category": "Reportes",
+      "path": "assets/projects/copeca-inventario/12-proveedores.png",
+      "status": "en ZIP, pendiente de subir a GitHub"
+    },
+    {
+      "file": "13-historial-producto.png",
+      "category": "Inventario",
+      "path": "assets/projects/copeca-inventario/13-historial-producto.png",
+      "status": "en ZIP, pendiente de subir a GitHub"
+    },
+    {
+      "file": "14-transformaciones-historial.png",
+      "category": "Transformaciones",
+      "path": "assets/projects/copeca-inventario/14-transformaciones-historial.png",
+      "status": "en ZIP, pendiente de subir a GitHub"
+    },
+    {
+      "file": "15-historial-transformados.png",
+      "category": "Inventario",
+      "path": "assets/projects/copeca-inventario/15-historial-transformados.png",
+      "status": "en ZIP, pendiente de subir a GitHub"
     }
   ]
 }
