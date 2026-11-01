@@ -20,7 +20,7 @@ const base="../assets/projects/vilsat-inventario/";
 const $=id=>document.getElementById(id);
 const url=s=>base+encodeURIComponent(s.file);
 const thumbnails=$("thumbs"),status=$("gallery-status"),filters=$("gallery-filters"),stage=$("stage");
-let slides=existing.slice(),filtered=slides.slice(),current=0,category="Todos",touchX=null,lastFocus=null;
+let slides=existing.concat(pending),filtered=slides.slice(),current=0,category="Todos",touchX=null,lastFocus=null;
 const categories=["Todos","Acceso","Dashboard","Entradas","Transformaciones","Salidas","Inventario","Historiales","Kardex","Exportaciones","Reportes"];
 function selectCategory(c){category=c;filtered=category==="Todos"?slides.slice():slides.filter(s=>s.category===category);current=0;filters.querySelectorAll("button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.category===category)));render()}
 function drawFilters(){filters.replaceChildren();categories.filter(c=>c==="Todos"||slides.some(s=>s.category===c)).forEach(c=>{const b=document.createElement("button");b.type="button";b.dataset.category=c;b.textContent=c;b.setAttribute("aria-pressed",String(c===category));b.onclick=()=>selectCategory(c);filters.append(b)})}
@@ -33,6 +33,6 @@ $("close").onclick=close;box.addEventListener("click",e=>{if(e.target===box)clos
 $("magnify").onclick=()=>{const on=box.classList.toggle("magnified");$("magnify").textContent=on?"Ajustar a pantalla":"Ampliar 175%";$("magnify").setAttribute("aria-pressed",String(on))};
 document.addEventListener("keydown",e=>{if(e.key==="Escape"&&box.classList.contains("open"))close();if(e.key==="ArrowLeft")move(-1);if(e.key==="ArrowRight")move(1)});
 drawFilters();render();
-Promise.all(pending.map(async x=>{try{const r=await fetch(url(x),{method:"HEAD",cache:"no-store"});return r.ok?x:null}catch(_){return null}})).then(found=>{const available=found.filter(Boolean);if(available.length){slides=existing.concat(available);const oldFile=filtered[current]?.file;filtered=category==="Todos"?slides.slice():slides.filter(s=>s.category===category);current=Math.max(0,filtered.findIndex(s=>s.file===oldFile));drawFilters();render()}status.textContent=available.length===pending.length?"Galería completa: 25 vistas disponibles. Capturas originales, con una vista reservada por privacidad.":(11+available.length)+" vistas disponibles; "+(pending.length-available.length)+" PNG pendientes de subir a GitHub. Se preservan las 11 vistas anteriores."}).catch(()=>{status.textContent="Se muestran las 11 vistas anteriores. Las nuevas capturas se habilitan cuando sus archivos estén disponibles."});
+status.textContent="Galería de 25 vistas: 11 referencias anteriores y 14 nuevas capturas originales. Una captura adicional permanece reservada por privacidad.";
 })();
 </script></body></html>
