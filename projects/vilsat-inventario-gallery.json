@@ -1,0 +1,169 @@
+{
+  "proyecto": "VILSAT — Sistema de Inventario y Control Logístico",
+  "fecha": "2026-10-31",
+  "imagenes_recibidas_esta_entrega": 15,
+  "imagenes_previas_publicadas": 11,
+  "imagenes_nuevas_seleccionadas": 14,
+  "imagenes_totales_configuradas": 25,
+  "imagenes_nuevas_publicadas": 0,
+  "estado": "La pagina registra 25 imagenes (11 actuales, 14 nuevas bajo verificacion HEAD). Las 14 PNG nuevas están en el ZIP y necesitan copiarse a GitHub.",
+  "ruta": "assets/projects/vilsat-inventario/",
+  "integridad": "Se preservan archivos originales PNG sin editarlos y se conservan los WEBP anteriores sin sobreescribirlos.",
+  "nota": "Vistas referenciales del sistema. Algunas imágenes presentan distintas secciones de la interfaz para facilitar su visualización.",
+  "excluida_por_privacidad": {
+    "archivo_origen": "ChatGPT Image Oct 31, 2026, 07_23_16 PM-4.png",
+    "razon": "Contiene nombre personal identificable en historial de transformaciones; no se subió ni se incluye en el paquete."
+  },
+  "imagenes": [
+    {
+      "path": "assets/projects/vilsat-inventario/01-panel-general.webp",
+      "file": "01-panel-general.webp",
+      "category": "Dashboard",
+      "status": "published"
+    },
+    {
+      "path": "assets/projects/vilsat-inventario/02-indicadores-estadisticas.webp",
+      "file": "02-indicadores-estadisticas.webp",
+      "category": "Dashboard",
+      "status": "published"
+    },
+    {
+      "path": "assets/projects/vilsat-inventario/03-registro-entradas.webp",
+      "file": "03-registro-entradas.webp",
+      "category": "Entradas",
+      "status": "published"
+    },
+    {
+      "path": "assets/projects/vilsat-inventario/04-historial-entradas.webp",
+      "file": "04-historial-entradas.webp",
+      "category": "Historiales",
+      "status": "published"
+    },
+    {
+      "path": "assets/projects/vilsat-inventario/05-transformaciones.webp",
+      "file": "05-transformaciones.webp",
+      "category": "Transformaciones",
+      "status": "published"
+    },
+    {
+      "path": "assets/projects/vilsat-inventario/06-registro-salidas.webp",
+      "file": "06-registro-salidas.webp",
+      "category": "Salidas",
+      "status": "published"
+    },
+    {
+      "path": "assets/projects/vilsat-inventario/07-inventario-general.webp",
+      "file": "07-inventario-general.webp",
+      "category": "Inventario",
+      "status": "published"
+    },
+    {
+      "path": "assets/projects/vilsat-inventario/08-historiales-saldos.webp",
+      "file": "08-historiales-saldos.webp",
+      "category": "Historiales",
+      "status": "published"
+    },
+    {
+      "path": "assets/projects/vilsat-inventario/09-exportacion-filtrada.webp",
+      "file": "09-exportacion-filtrada.webp",
+      "category": "Exportaciones",
+      "status": "published"
+    },
+    {
+      "path": "assets/projects/vilsat-inventario/10-kardex-trazabilidad.webp",
+      "file": "10-kardex-trazabilidad.webp",
+      "category": "Kardex",
+      "status": "published"
+    },
+    {
+      "path": "assets/projects/vilsat-inventario/11-reportes-analisis.webp",
+      "file": "11-reportes-analisis.webp",
+      "category": "Reportes",
+      "status": "published"
+    },
+    {
+      "path": "assets/projects/vilsat-inventario/12-login-demo.png",
+      "file": "12-login-demo.png",
+      "category": "Acceso",
+      "status": "prepared_pending_upload"
+    },
+    {
+      "path": "assets/projects/vilsat-inventario/13-dashboard-resumen.png",
+      "file": "13-dashboard-resumen.png",
+      "category": "Dashboard",
+      "status": "prepared_pending_upload"
+    },
+    {
+      "path": "assets/projects/vilsat-inventario/14-dashboard-detalle.png",
+      "file": "14-dashboard-detalle.png",
+      "category": "Dashboard",
+      "status": "prepared_pending_upload"
+    },
+    {
+      "path": "assets/projects/vilsat-inventario/15-dashboard-operaciones.png",
+      "file": "15-dashboard-operaciones.png",
+      "category": "Dashboard",
+      "status": "prepared_pending_upload"
+    },
+    {
+      "path": "assets/projects/vilsat-inventario/16-entradas-formulario.png",
+      "file": "16-entradas-formulario.png",
+      "category": "Entradas",
+      "status": "prepared_pending_upload"
+    },
+    {
+      "path": "assets/projects/vilsat-inventario/17-transformaciones-formulario.png",
+      "file": "17-transformaciones-formulario.png",
+      "category": "Transformaciones",
+      "status": "prepared_pending_upload"
+    },
+    {
+      "path": "assets/projects/vilsat-inventario/18-salidas-formulario.png",
+      "file": "18-salidas-formulario.png",
+      "category": "Salidas",
+      "status": "prepared_pending_upload"
+    },
+    {
+      "path": "assets/projects/vilsat-inventario/19-inventario-navegacion.png",
+      "file": "19-inventario-navegacion.png",
+      "category": "Inventario",
+      "status": "prepared_pending_upload"
+    },
+    {
+      "path": "assets/projects/vilsat-inventario/20-historial-saldos.png",
+      "file": "20-historial-saldos.png",
+      "category": "Historiales",
+      "status": "prepared_pending_upload"
+    },
+    {
+      "path": "assets/projects/vilsat-inventario/21-historial-ingresos.png",
+      "file": "21-historial-ingresos.png",
+      "category": "Historiales",
+      "status": "prepared_pending_upload"
+    },
+    {
+      "path": "assets/projects/vilsat-inventario/22-exportacion-avanzada.png",
+      "file": "22-exportacion-avanzada.png",
+      "category": "Exportaciones",
+      "status": "prepared_pending_upload"
+    },
+    {
+      "path": "assets/projects/vilsat-inventario/23-kardex-buscador.png",
+      "file": "23-kardex-buscador.png",
+      "category": "Kardex",
+      "status": "prepared_pending_upload"
+    },
+    {
+      "path": "assets/projects/vilsat-inventario/24-kardex-lote.png",
+      "file": "24-kardex-lote.png",
+      "category": "Kardex",
+      "status": "prepared_pending_upload"
+    },
+    {
+      "path": "assets/projects/vilsat-inventario/25-reportes-analisis.png",
+      "file": "25-reportes-analisis.png",
+      "category": "Reportes",
+      "status": "prepared_pending_upload"
+    }
+  ]
+}
