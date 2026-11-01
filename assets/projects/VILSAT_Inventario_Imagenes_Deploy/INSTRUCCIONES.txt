@@ -1,0 +1,17 @@
+VILSAT INVENTARIO — INSTRUCCIONES PARA GITHUB (WINDOWS)
+
+1. Descarga y EXTRAE este ZIP en una carpeta temporal.
+2. En tu repositorio jeremyvg21/jeremyvg21.github.io busca assets/projects/vilsat-inventario/.
+3. Esta carpeta YA contiene 11 archivos .webp. No los elimines. Los ejemplares de este ZIP son iguales a los ya publicados.
+4. En GitHub abre assets/projects/vilsat-inventario/ y usa Add file > Upload files.
+5. Arrastra SOLAMENTE los archivos 12-*.png ... 25-*.png desde la carpeta extraída assets/projects/vilsat-inventario/.
+6. Confirma 'Commit changes' en main. No subas la carpeta assets dentro de otra carpeta assets, ni una carpeta VILSAT_Inventario_Imagenes_Deploy adicional.
+7. Comprueba que la ruta final sea assets/projects/vilsat-inventario/12-login-demo.png (y análogas).
+8. Espera la verificación del flujo de GitHub Pages en Actions > Deploy.
+9. Revisa https://jeremyvg21.github.io/projects/vilsat-inventario.html y su galería.
+
+Estructura raíz del ZIP: assets/projects/vilsat-inventario/ + INSTRUCCIONES.txt + gallery-data.json.
+En la carpeta hay 25 imágenes: 11 WEBP de continuidad + 14 PNG nuevas originales.
+El PNG ChatGPT Image Oct 31, 2026, 07_23_16 PM-4.png NO se incluye por mostrar un nombre personal identificable.
+La galería de GitHub está preparada para habilitar automáticamente las imágenes PNG cuando estén presentes.
+Las imágenes NO se han editado, recortado ni regenerado.

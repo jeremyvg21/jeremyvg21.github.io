@@ -1,0 +1,340 @@
+{
+  "project": "VILSAT — Sistema de Inventario y Control Logístico",
+  "version": "2026-10-31",
+  "base_path": "assets/projects/vilsat-inventario/",
+  "previously_published": 11,
+  "new_received": 15,
+  "new_approved_for_publication": 14,
+  "reserved_count": 1,
+  "all_gallery_images": 25,
+  "images": [
+    {
+      "file": "01-panel-general.webp",
+      "path": "assets/projects/vilsat-inventario/01-panel-general.webp",
+      "category": "Dashboard",
+      "title": "Panel principal y navegación",
+      "description": "Vista general de los accesos a los principales módulos.",
+      "origin": "previously_published",
+      "bytes": 63552,
+      "sha256": "5081399d723e893fd480d2dc299dc08c15b8ed4ebbb3122ef96537b67cf20c7c"
+    },
+    {
+      "file": "02-indicadores-estadisticas.webp",
+      "path": "assets/projects/vilsat-inventario/02-indicadores-estadisticas.webp",
+      "category": "Dashboard",
+      "title": "Indicadores, gráficos y tendencias",
+      "description": "Indicadores y tendencias de movimientos y existencias.",
+      "origin": "previously_published",
+      "bytes": 71852,
+      "sha256": "1bd6410c9122b88667acb90a7255d8e45d6d121dc3d5c62286e54636f6d07561"
+    },
+    {
+      "file": "03-registro-entradas.webp",
+      "path": "assets/projects/vilsat-inventario/03-registro-entradas.webp",
+      "category": "Entradas",
+      "title": "Registro de entradas y lotes maestros",
+      "description": "Ingreso de lotes, dimensiones, proveedor y costos.",
+      "origin": "previously_published",
+      "bytes": 52258,
+      "sha256": "516774cc1ea302718874c6caac6c33b0512a533bf4c1826be7231f3bf9da2356"
+    },
+    {
+      "file": "04-historial-entradas.webp",
+      "path": "assets/projects/vilsat-inventario/04-historial-entradas.webp",
+      "category": "Historiales",
+      "title": "Historial de entradas",
+      "description": "Consulta de ingresos, cantidades y códigos.",
+      "origin": "previously_published",
+      "bytes": 76322,
+      "sha256": "34fcbf74b0614c61c284d8241fa5462de7356543df986009df6bfd4b7ee6f234"
+    },
+    {
+      "file": "05-transformaciones.webp",
+      "path": "assets/projects/vilsat-inventario/05-transformaciones.webp",
+      "category": "Transformaciones",
+      "title": "Transformación de log a rollo",
+      "description": "Proceso de transformación y registro de materiales.",
+      "origin": "previously_published",
+      "bytes": 105228,
+      "sha256": "5e993a56151179f204f582ca684890e147edb96850698770f58fc5fd6547d254"
+    },
+    {
+      "file": "06-registro-salidas.webp",
+      "path": "assets/projects/vilsat-inventario/06-registro-salidas.webp",
+      "category": "Salidas",
+      "title": "Registro y seguimiento de salidas",
+      "description": "Campos y seguimiento de salidas de inventario.",
+      "origin": "previously_published",
+      "bytes": 92976,
+      "sha256": "672a6b4dd2cb4582e0e395c24d6822f99d67718c833d6702446cddbd8ef925da"
+    },
+    {
+      "file": "07-inventario-general.webp",
+      "path": "assets/projects/vilsat-inventario/07-inventario-general.webp",
+      "category": "Inventario",
+      "title": "Vista general de inventario",
+      "description": "Accesos a consultas, historiales, exportación y Kardex.",
+      "origin": "previously_published",
+      "bytes": 61540,
+      "sha256": "bcb48963674cba6dc4093cb8fc7e19e09bd73fa6ce9af205e732b9e5040c9c54"
+    },
+    {
+      "file": "08-historiales-saldos.webp",
+      "path": "assets/projects/vilsat-inventario/08-historiales-saldos.webp",
+      "category": "Historiales",
+      "title": "Historiales y saldos",
+      "description": "Consulta de saldos y registros históricos.",
+      "origin": "previously_published",
+      "bytes": 73922,
+      "sha256": "cbad9451f0e8b5db3a91b692cd1d1be7100eb5cf830cd759c1f8863fc4ff9ff6"
+    },
+    {
+      "file": "09-exportacion-filtrada.webp",
+      "path": "assets/projects/vilsat-inventario/09-exportacion-filtrada.webp",
+      "category": "Exportaciones",
+      "title": "Filtros y exportación",
+      "description": "Selección de columnas y filtros de consulta.",
+      "origin": "previously_published",
+      "bytes": 57156,
+      "sha256": "b7c83be1940018f5e9157f7ff8332696b11b6a1adf8a50d6c9d314c85456cee4"
+    },
+    {
+      "file": "10-kardex-trazabilidad.webp",
+      "path": "assets/projects/vilsat-inventario/10-kardex-trazabilidad.webp",
+      "category": "Kardex",
+      "title": "Kardex y trazabilidad",
+      "description": "Trazabilidad de producto por lote.",
+      "origin": "previously_published",
+      "bytes": 61102,
+      "sha256": "d4c7aa6ff497768eb80dc3247b2c443ff0276e3eec898949ca4627e94548de8f"
+    },
+    {
+      "file": "11-reportes-analisis.webp",
+      "path": "assets/projects/vilsat-inventario/11-reportes-analisis.webp",
+      "category": "Reportes",
+      "title": "Reportes y tendencias",
+      "description": "Análisis y visualización estadística.",
+      "origin": "previously_published",
+      "bytes": 73276,
+      "sha256": "ff077cd13d5dcae8318f6b96c76be2b4838c6d7acee7625a721d8b5b9ed688bf"
+    },
+    {
+      "file": "12-login-demo.png",
+      "path": "assets/projects/vilsat-inventario/12-login-demo.png",
+      "category": "Acceso",
+      "title": "Inicio de sesión demostrativo",
+      "description": "Pantalla de acceso con usuario de prueba y selector de departamento.",
+      "origin": "new_original_png",
+      "original_filename": "VILSAT demo login page-1.png",
+      "dimensions": [
+        1254,
+        1134
+      ],
+      "bytes": 1021725,
+      "sha256": "cdbd5878b0c18cb0dab38d4861d10e8b9b0642ccb3894430692f216e36678dfc"
+    },
+    {
+      "file": "13-dashboard-resumen.png",
+      "path": "assets/projects/vilsat-inventario/13-dashboard-resumen.png",
+      "category": "Dashboard",
+      "title": "Dashboard completo",
+      "description": "Vista compuesta con indicadores, gráficos y operaciones recientes.",
+      "origin": "new_original_png",
+      "original_filename": "VILSAT demo dashboard overview-2.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 2014407,
+      "sha256": "180ee038c2963895396598e8266f05d7718d00e6929b27dd177c8294212391b0"
+    },
+    {
+      "file": "14-dashboard-detalle.png",
+      "path": "assets/projects/vilsat-inventario/14-dashboard-detalle.png",
+      "category": "Dashboard",
+      "title": "Indicadores del panel",
+      "description": "Vista de métricas, accesos y gráficos del dashboard.",
+      "origin": "new_original_png",
+      "original_filename": "Vilsat demo dashboard overview-4.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 1787101,
+      "sha256": "d0826131ecfb13eb2b2bdb926693fdad1ec37397069f72610ad15a751352369d"
+    },
+    {
+      "file": "15-dashboard-operaciones.png",
+      "path": "assets/projects/vilsat-inventario/15-dashboard-operaciones.png",
+      "category": "Dashboard",
+      "title": "Tendencias y movimientos recientes",
+      "description": "Vista de tendencias junto con registros recientes de entradas, transformaciones y salidas.",
+      "origin": "new_original_png",
+      "original_filename": "VILSAT dashboard with trends and tables-5.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 1826073,
+      "sha256": "80a97190c054bfccfaaa503acdbda8635e8f186aa915b40ce3a5142c7bcbffd9"
+    },
+    {
+      "file": "16-entradas-formulario.png",
+      "path": "assets/projects/vilsat-inventario/16-entradas-formulario.png",
+      "category": "Entradas",
+      "title": "Registro de entradas y tipo de cambio",
+      "description": "Formulario de lote maestro, tipo de cambio, historial e indicadores.",
+      "origin": "new_original_png",
+      "original_filename": "VILSAT Entries_ New Batch and History-6.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 1919670,
+      "sha256": "503154022598aa5cdec5ddeef56a03607c4d049fd34b40f4b26f0bc437d82f96"
+    },
+    {
+      "file": "17-transformaciones-formulario.png",
+      "path": "assets/projects/vilsat-inventario/17-transformaciones-formulario.png",
+      "category": "Transformaciones",
+      "title": "Transformación de productos",
+      "description": "Formulario de transformación y registros históricos de procesos.",
+      "origin": "new_original_png",
+      "original_filename": "VILSAT product transformation dashboard-7.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 1917970,
+      "sha256": "e9b5548495e558b89ec69dd96d22b4ca66babeca5a855d0b2b430cd5425f8bed"
+    },
+    {
+      "file": "18-salidas-formulario.png",
+      "path": "assets/projects/vilsat-inventario/18-salidas-formulario.png",
+      "category": "Salidas",
+      "title": "Registro de salidas e historial",
+      "description": "Formulario para registrar salidas, búsquedas y movimientos.",
+      "origin": "new_original_png",
+      "original_filename": "VILSAT outbound shipment management screen-8.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 1856245,
+      "sha256": "b004fe19b8a22c5b53f4dfb98b37914c77501c1918a811c6100dcaf1934a3a85"
+    },
+    {
+      "file": "19-inventario-navegacion.png",
+      "path": "assets/projects/vilsat-inventario/19-inventario-navegacion.png",
+      "category": "Inventario",
+      "title": "Centro de inventario",
+      "description": "Saldos, historial, exportación y Kardex desde el inventario.",
+      "origin": "new_original_png",
+      "original_filename": "ChatGPT Image Oct 31, 2026, 07_23_13 PM-1.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 2270922,
+      "sha256": "e63e587bc98d0a81ee58ffc94ff1bcf40803a6c41e334a5e09bed7462ccdf9b4"
+    },
+    {
+      "file": "20-historial-saldos.png",
+      "path": "assets/projects/vilsat-inventario/20-historial-saldos.png",
+      "category": "Historiales",
+      "title": "Historial de saldos actuales",
+      "description": "Consulta de lotes y saldos disponibles por producto.",
+      "origin": "new_original_png",
+      "original_filename": "ChatGPT Image Oct 31, 2026, 07_23_14 PM-2.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 2312152,
+      "sha256": "de1e08466d235c241e07648d9e6cce01483672e91db7c7f3b45e55a99d73b5fc"
+    },
+    {
+      "file": "21-historial-ingresos.png",
+      "path": "assets/projects/vilsat-inventario/21-historial-ingresos.png",
+      "category": "Historiales",
+      "title": "Historial de ingresos",
+      "description": "Registros de ingreso de lotes maestros con búsquedas y referencias.",
+      "origin": "new_original_png",
+      "original_filename": "ChatGPT Image Oct 31, 2026, 07_23_14 PM-3.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 2274114,
+      "sha256": "8ea8f8f5c403042a999362bb7ed1a97c27042656dc17be416dc94698793eb369"
+    },
+    {
+      "file": "22-exportacion-avanzada.png",
+      "path": "assets/projects/vilsat-inventario/22-exportacion-avanzada.png",
+      "category": "Exportaciones",
+      "title": "Exportar inventario",
+      "description": "Interfaz de filtros avanzados, columnas y exportación de registros.",
+      "origin": "new_original_png",
+      "original_filename": "ChatGPT Image Oct 31, 2026, 07_23_16 PM-5.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 2274073,
+      "sha256": "5c74a9dccda91b204a817a677348cec16116dbea7cee48d218a5ea70fa1688d9"
+    },
+    {
+      "file": "23-kardex-buscador.png",
+      "path": "assets/projects/vilsat-inventario/23-kardex-buscador.png",
+      "category": "Kardex",
+      "title": "Buscador de Kardex",
+      "description": "Búsqueda de producto, filtros de fecha y selección de lotes.",
+      "origin": "new_original_png",
+      "original_filename": "ChatGPT Image Oct 31, 2026, 07_23_17 PM-6.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 2402524,
+      "sha256": "4fb1ab2abbf280bcad8772f5a46a419ff288d27bdc243e391042c5b1004648ac"
+    },
+    {
+      "file": "24-kardex-lote.png",
+      "path": "assets/projects/vilsat-inventario/24-kardex-lote.png",
+      "category": "Kardex",
+      "title": "Kardex detallado por lote",
+      "description": "Stock inicial, saldos, transformaciones y resumen histórico.",
+      "origin": "new_original_png",
+      "original_filename": "ChatGPT Image Oct 31, 2026, 07_23_18 PM-7.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 2237315,
+      "sha256": "a11ca00729de9ac516aa927555cdce4709a02c86a48def92df64425acfeae16b"
+    },
+    {
+      "file": "25-reportes-analisis.png",
+      "path": "assets/projects/vilsat-inventario/25-reportes-analisis.png",
+      "category": "Reportes",
+      "title": "Reportes y análisis",
+      "description": "Indicadores, composición de inventario, tendencias y gráficos operativos.",
+      "origin": "new_original_png",
+      "original_filename": "ChatGPT Image Oct 31, 2026, 07_23_19 PM-8.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 2451758,
+      "sha256": "faa50da91b101c6cc9cc3aafdeddecc5840dc072f5b8d22609a4d72f10109732"
+    }
+  ],
+  "pending_review": [
+    {
+      "source": "ChatGPT Image Oct 31, 2026, 07_23_16 PM-4.png",
+      "section": "Historial de transformaciones",
+      "reason": "Contiene nombre y apellidos identificables de una persona en la columna Usuario; requiere versión anonimizada autorizada. No se alteró ni se añadió al paquete de publicación."
+    }
+  ],
+  "note": "Vistas referenciales del sistema. Algunas imágenes presentan distintas secciones de la interfaz para facilitar su visualización. Los archivos se preservaron byte a byte."
+}
