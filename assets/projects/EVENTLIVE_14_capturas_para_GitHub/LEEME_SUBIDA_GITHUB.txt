@@ -1,0 +1,7 @@
+EVENTLIVE — 14 capturas finales originales.
+IMPORTANTE: GitHub no descomprime un ZIP automáticamente.
+Subir los 14 PNG a jeremyvg21/jeremyvg21.github.io, rama main, dentro de assets/projects/eventlive/ (conservar nombres).
+No arrastrar la carpeta superior EVENTLIVE_GitHub_Imagenes_Finales; lo importante es que las rutas finales sean assets/projects/eventlive/01-admin-acceso.png y así sucesivamente.
+La página projects/eventlive.html y la tarjeta principal quedan preparadas para estas rutas.
+Verificar después https://jeremyvg21.github.io/projects/eventlive.html y la portada del proyecto.
+Los 14 originales están copiados SIN ALTERAR el contenido: mismo SHA-256.

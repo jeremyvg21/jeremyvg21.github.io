@@ -1,0 +1,105 @@
+{
+  "project": "EVENTLIVE",
+  "images": [
+    {
+      "path": "assets/projects/eventlive/01-admin-acceso.png",
+      "modulo": "Administración",
+      "titulo": "Acceso administrativo",
+      "sha256": "8d71fdfe4eabbfcf8e6eeb07ad5a44c2dac4cda9df45272d21f37081c578d5c0",
+      "bytes": 1748746
+    },
+    {
+      "path": "assets/projects/eventlive/02-admin-dashboard.png",
+      "modulo": "Administración",
+      "titulo": "Dashboard administrativo",
+      "sha256": "2f296866ed49d6416ec65fa64a60ecbd19bd73e5030ead6d6df7d1f5c45c7887",
+      "bytes": 2216673
+    },
+    {
+      "path": "assets/projects/eventlive/03-admin-evento.png",
+      "modulo": "Administración",
+      "titulo": "Gestión del evento",
+      "sha256": "d19f35e4cabbfb8e5f54373f82be9cd459b244d2156e9f109a537ed5f1462755",
+      "bytes": 2212646
+    },
+    {
+      "path": "assets/projects/eventlive/04-admin-publicaciones.png",
+      "modulo": "Administración",
+      "titulo": "Publicaciones recibidas",
+      "sha256": "693f4cf4ff84de2b2768332b54aaffba0fe18ffbd2dec42e14729a8dc8e526b9",
+      "bytes": 2271949
+    },
+    {
+      "path": "assets/projects/eventlive/05-admin-moderacion.png",
+      "modulo": "Administración",
+      "titulo": "Detalle y moderación",
+      "sha256": "e26fd989aeb4b820bf721e8cb443d892bc795c80ff70117a8d493610f485d03d",
+      "bytes": 2521729
+    },
+    {
+      "path": "assets/projects/eventlive/06-admin-contenido.png",
+      "modulo": "Administración",
+      "titulo": "Contenido administrativo",
+      "sha256": "85780cd1ab0c7f53f7857d4e16e2d2b5c8944bb3ad055b1e7c2d946f618459ec",
+      "bytes": 2253021
+    },
+    {
+      "path": "assets/projects/eventlive/07-admin-estadisticas.png",
+      "modulo": "Administración",
+      "titulo": "Estadísticas",
+      "sha256": "c2581e0917ffa8312903e21a07afc8949c78994c8a9c13318bb74200b8a0dfe9",
+      "bytes": 2332206
+    },
+    {
+      "path": "assets/projects/eventlive/08-admin-crear-contenido.png",
+      "modulo": "Administración",
+      "titulo": "Creación de contenido",
+      "sha256": "06aa502e4673a5a89d1592ec516ae810284cfff6d6dbf01c5144533df0c605d2",
+      "bytes": 2280575
+    },
+    {
+      "path": "assets/projects/eventlive/09-admin-configuracion.png",
+      "modulo": "Administración",
+      "titulo": "Configuración del evento",
+      "sha256": "01d6e65262a8fa1f2553a7ac8bf9cf2985df6e031912c907984c34b408b42c6a",
+      "bytes": 2479508
+    },
+    {
+      "path": "assets/projects/eventlive/10-admin-editor-visual.png",
+      "modulo": "Administración",
+      "titulo": "Editor visual de pantalla",
+      "sha256": "c923a4691462d26d409e8fe1fbe1a4c5e90e6049ff548489f4abaf816c360f17",
+      "bytes": 2605972
+    },
+    {
+      "path": "assets/projects/eventlive/11-admin-auditoria.png",
+      "modulo": "Administración",
+      "titulo": "Auditoría de moderación",
+      "sha256": "0a6604e0153e7a12ed493466e07bbd398cde569e16cf7849860dac3ec0d6c0b7",
+      "bytes": 2327485
+    },
+    {
+      "path": "assets/projects/eventlive/12-invitados-subida.png",
+      "modulo": "Invitados",
+      "titulo": "Formulario de participación",
+      "sha256": "43780d6ff0221d506b61c52893a0691601405efc87058c0363c8c275de9f5c2d",
+      "bytes": 1583104
+    },
+    {
+      "path": "assets/projects/eventlive/13-invitados-confirmacion.png",
+      "modulo": "Invitados",
+      "titulo": "Confirmación de envío",
+      "sha256": "c4dff753c0c0706c1ecc65fb674c0e490c1dfe92085e9c7305dcf1115e943201",
+      "bytes": 1644939
+    },
+    {
+      "path": "assets/projects/eventlive/14-pantalla-publica.png",
+      "modulo": "Pantalla Gigante",
+      "titulo": "Visualización pública",
+      "sha256": "b0928d9ed0bb4822c588b01d240256c58148fe499806041fa9d7ae0639fd3b8e",
+      "bytes": 2127434
+    }
+  ],
+  "count": 14,
+  "note": "Copias byte a byte. No se han rediseñado ni recomprimido las capturas."
+}
