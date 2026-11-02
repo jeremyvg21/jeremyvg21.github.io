@@ -73,7 +73,7 @@ function render(){const item=visible[currentIndex];if(!item)return;const serial=
  main.onerror=()=>{if(serial===loadId)viewer.classList.add("is-missing")};
  main.src=item.src;
  thumbs.replaceChildren();visible.forEach((s,i)=>{const b=document.createElement("button");b.type="button";b.className="thumb";b.setAttribute("aria-label",String(s.num).padStart(2,"0")+" — "+s.title);b.setAttribute("aria-current",String(i===currentIndex));const im=document.createElement("img");im.src=s.src;im.alt="";im.loading="lazy";im.onerror=()=>{im.style.visibility="hidden"};const cap=document.createElement("span");cap.textContent=String(s.num).padStart(2,"0")+" · "+s.title;b.append(im,cap);b.onclick=()=>{currentIndex=i;render()};thumbs.append(b)});
- thumbs.children[currentIndex]?.scrollIntoView({block:"nearest",inline:"nearest",behavior:"smooth"});
+ const active=thumbs.children[currentIndex];if(active){const left=active.offsetLeft-thumbs.offsetLeft-(thumbs.clientWidth-active.offsetWidth)/2;thumbs.scrollTo({left:Math.max(0,left),behavior:"smooth"})}
 }
 function filter(which){currentFilter=which;visible=which==="Todos"?slides.slice():slides.filter(x=>x.module===which);currentIndex=0;document.querySelectorAll(".filter").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.filter===which)));render()}
 function move(offset){if(!visible.length)return;currentIndex=(currentIndex+offset+visible.length)%visible.length;render()}
