@@ -1,0 +1,24 @@
+archivo,modulo,pantalla,tipo,archivo_principal,origen
+01_Administracion/admin-dashboard.png,admin,Resumen general,individual,resources/js/Pages/Dashboard.vue,recreación basada en código
+01_Administracion/admin-login.png,admin,Qué bueno verte de nuevo.,individual,resources/js/Pages/Auth/Login.vue,recreación basada en código
+01_Administracion/admin-estudiantes.png,admin,Estudiantes,individual,resources/js/Pages/Academic/Index.vue,recreación basada en código
+01_Administracion/admin-docentes.png,admin,Docentes,individual,resources/js/Pages/Academic/Index.vue,recreación basada en código
+01_Administracion/admin-matriculas.png,admin,Matrículas,individual,resources/js/Pages/Enrollments/Index.vue,recreación basada en código
+01_Administracion/admin-usuarios.png,admin,Usuarios y accesos,individual,resources/js/Pages/Members/Index.vue,recreación basada en código
+01_Administracion/admin-finanzas.png,admin,Finanzas,individual,resources/js/Pages/Finance/Index.vue,recreación basada en código
+01_Administracion/admin-biblioteca.png,admin,Biblioteca,individual,resources/js/Pages/Library/Index.vue,recreación basada en código
+01_Administracion/admin-calendario.png,admin,Calendario,individual,resources/js/Pages/Calendar/Index.vue,recreación basada en código
+02_Docentes/docente-horarios.png,teacher,Horarios,individual,resources/js/Pages/Timetable/Index.vue,recreación basada en código
+02_Docentes/docente-asistencia.png,teacher,Matemática,individual,resources/js/Pages/Attendance/Show.vue,recreación basada en código
+02_Docentes/docente-tareas.png,teacher,Tareas y entregas,individual,resources/js/Pages/Assignments/Index.vue,recreación basada en código
+02_Docentes/docente-calificaciones.png,teacher,Matemática · Primer periodo DEMO,individual,resources/js/Pages/Gradebooks/Show.vue,recreación basada en código
+02_Docentes/docente-school-play.png,teacher,School Play,individual,resources/js/Pages/Play/Index.vue,recreación basada en código
+03_Estudiantes/estudiante-mi-comunidad.png,student,Mi comunidad de aprendizaje,individual,resources/js/Pages/Portal/Index.vue,recreación basada en código
+03_Estudiantes/estudiante-tarea.png,student,Exploramos proporciones en el jardín,individual,resources/js/Pages/Learning/Assignment.vue,recreación basada en código
+03_Estudiantes/estudiante-school-play.png,student,Mi School Play,individual,resources/js/Pages/Play/LearningIndex.vue,recreación basada en código
+03_Estudiantes/familia-mi-comunidad.png,family,Mi comunidad de aprendizaje,individual,resources/js/Pages/Portal/Index.vue,recreación basada en código
+05_Composiciones/school-portada-general-2048.png,comp,SCHOOL · Ecosistema educativo,composición,resources/js/Pages/Attendance/Show.vue,composición editorial de recreaciones basadas en código
+05_Composiciones/school-administracion-2048.png,comp,SCHOOL · Administración,composición,resources/js/Pages/Academic/Index.vue,composición editorial de recreaciones basadas en código
+05_Composiciones/school-docentes-2048.png,comp,SCHOOL · Portal docente,composición,resources/js/Pages/Assignments/Index.vue,composición editorial de recreaciones basadas en código
+05_Composiciones/school-estudiantes-2048.png,comp,SCHOOL · Portal estudiantil,composición,resources/js/Pages/Learning/Assignment.vue,composición editorial de recreaciones basadas en código
+05_Composiciones/school-school-play-2048.png,comp,SCHOOL · Actividades educativas,composición,resources/js/Pages/Play/Index.vue,composición editorial de recreaciones basadas en código

@@ -1,0 +1,475 @@
+{
+  "project": "SCHOOL — Plataforma Integral de Gestión y Aprendizaje Escolar",
+  "generated": "2026-11-03",
+  "total": 23,
+  "individual": 18,
+  "compositions": 5,
+  "origin_disclaimer": "Todas las imágenes son recreaciones HTML/CSS basadas en las fuentes Vue/Tailwind de jeremyvg21/School, renderizadas en Chromium con datos ficticios del seeder. Ninguna es una captura de la ejecución real de SCHOOL en Laragon. No sustituir capturas reales de Codex.",
+  "reference_repository": "jeremyvg21/School (privado)",
+  "palette": {
+    "orange": "#cc5122",
+    "navy": "#112236",
+    "canvas": "#f6f7f9",
+    "white": "#ffffff"
+  },
+  "excluded": {
+    "school_games_social_feed": "No se encontró implementación verificada; no se fabricaron feed ni carga de fotos.",
+    "badges_teams": "Pendientes en School Play; no representados como funcionales."
+  },
+  "items": [
+    {
+      "file": "01_Administracion/admin-dashboard.png",
+      "role": "admin",
+      "title": "Resumen general",
+      "description": "Una mirada a tu comunidad educativa y a sus últimos movimientos.",
+      "origin": "recreación basada en código",
+      "publication_status": "apto como recreación, nunca como captura auténtica",
+      "source_files": [
+        "resources/js/Layouts/AppLayout.vue",
+        "resources/css/app.css",
+        "resources/js/Components/Brand.vue",
+        "resources/js/Components/Icon.vue",
+        "resources/js/Pages/Dashboard.vue",
+        "app/Http/Controllers/DashboardController.php",
+        "database/seeders/PortfolioDemoSeeder.php"
+      ],
+      "real_capture": false,
+      "demo_data": true,
+      "url_production": "assets/projects/school/01_Administracion/admin-dashboard.png"
+    },
+    {
+      "file": "01_Administracion/admin-login.png",
+      "role": "admin",
+      "title": "Qué bueno verte de nuevo.",
+      "description": "Ingresa con tu cuenta para continuar en SCHOOL.",
+      "origin": "recreación basada en código",
+      "publication_status": "apto como recreación, nunca como captura auténtica",
+      "source_files": [
+        "resources/js/Layouts/AppLayout.vue",
+        "resources/css/app.css",
+        "resources/js/Components/Brand.vue",
+        "resources/js/Components/Icon.vue",
+        "resources/js/Pages/Auth/Login.vue",
+        "resources/js/Layouts/AuthLayout.vue"
+      ],
+      "real_capture": false,
+      "demo_data": true,
+      "url_production": "assets/projects/school/01_Administracion/admin-login.png"
+    },
+    {
+      "file": "01_Administracion/admin-estudiantes.png",
+      "role": "admin",
+      "title": "Estudiantes",
+      "description": "Administra los registros estudiantiles de la institución.",
+      "origin": "recreación basada en código",
+      "publication_status": "apto como recreación, nunca como captura auténtica",
+      "source_files": [
+        "resources/js/Layouts/AppLayout.vue",
+        "resources/css/app.css",
+        "resources/js/Components/Brand.vue",
+        "resources/js/Components/Icon.vue",
+        "resources/js/Pages/Academic/Index.vue",
+        "database/seeders/PortfolioDemoSeeder.php"
+      ],
+      "real_capture": false,
+      "demo_data": true,
+      "url_production": "assets/projects/school/01_Administracion/admin-estudiantes.png"
+    },
+    {
+      "file": "01_Administracion/admin-docentes.png",
+      "role": "admin",
+      "title": "Docentes",
+      "description": "Administra los registros docentes de la institución.",
+      "origin": "recreación basada en código",
+      "publication_status": "apto como recreación, nunca como captura auténtica",
+      "source_files": [
+        "resources/js/Layouts/AppLayout.vue",
+        "resources/css/app.css",
+        "resources/js/Components/Brand.vue",
+        "resources/js/Components/Icon.vue",
+        "resources/js/Pages/Academic/Index.vue",
+        "database/seeders/PortfolioDemoSeeder.php"
+      ],
+      "real_capture": false,
+      "demo_data": true,
+      "url_production": "assets/projects/school/01_Administracion/admin-docentes.png"
+    },
+    {
+      "file": "01_Administracion/admin-matriculas.png",
+      "role": "admin",
+      "title": "Matrículas",
+      "description": "Conecta a cada estudiante con su sección y año académico.",
+      "origin": "recreación basada en código",
+      "publication_status": "apto como recreación, nunca como captura auténtica",
+      "source_files": [
+        "resources/js/Layouts/AppLayout.vue",
+        "resources/css/app.css",
+        "resources/js/Components/Brand.vue",
+        "resources/js/Components/Icon.vue",
+        "resources/js/Pages/Enrollments/Index.vue",
+        "database/seeders/PortfolioDemoSeeder.php"
+      ],
+      "real_capture": false,
+      "demo_data": true,
+      "url_production": "assets/projects/school/01_Administracion/admin-matriculas.png"
+    },
+    {
+      "file": "01_Administracion/admin-usuarios.png",
+      "role": "admin",
+      "title": "Usuarios y accesos",
+      "description": "Asigna roles y conecta cada cuenta con su registro institucional.",
+      "origin": "recreación basada en código",
+      "publication_status": "apto como recreación, nunca como captura auténtica",
+      "source_files": [
+        "resources/js/Layouts/AppLayout.vue",
+        "resources/css/app.css",
+        "resources/js/Components/Brand.vue",
+        "resources/js/Components/Icon.vue",
+        "resources/js/Pages/Members/Index.vue",
+        "database/seeders/PortfolioDemoSeeder.php"
+      ],
+      "real_capture": false,
+      "demo_data": true,
+      "url_production": "assets/projects/school/01_Administracion/admin-usuarios.png"
+    },
+    {
+      "file": "01_Administracion/admin-finanzas.png",
+      "role": "admin",
+      "title": "Finanzas",
+      "description": "Cargos, cobros y estados de cuenta de tu institución.",
+      "origin": "recreación basada en código",
+      "publication_status": "apto como recreación, nunca como captura auténtica",
+      "source_files": [
+        "resources/js/Layouts/AppLayout.vue",
+        "resources/css/app.css",
+        "resources/js/Components/Brand.vue",
+        "resources/js/Components/Icon.vue",
+        "resources/js/Pages/Finance/Index.vue",
+        "database/seeders/PortfolioDemoSeeder.php"
+      ],
+      "real_capture": false,
+      "demo_data": true,
+      "url_production": "assets/projects/school/01_Administracion/admin-finanzas.png"
+    },
+    {
+      "file": "01_Administracion/admin-biblioteca.png",
+      "role": "admin",
+      "title": "Biblioteca",
+      "description": "Catálogo físico, autores y ejemplares identificados de la institución.",
+      "origin": "recreación basada en código",
+      "publication_status": "apto como recreación, nunca como captura auténtica",
+      "source_files": [
+        "resources/js/Layouts/AppLayout.vue",
+        "resources/css/app.css",
+        "resources/js/Components/Brand.vue",
+        "resources/js/Components/Icon.vue",
+        "resources/js/Pages/Library/Index.vue",
+        "database/seeders/PortfolioDemoSeeder.php"
+      ],
+      "real_capture": false,
+      "demo_data": true,
+      "url_production": "assets/projects/school/01_Administracion/admin-biblioteca.png"
+    },
+    {
+      "file": "01_Administracion/admin-calendario.png",
+      "role": "admin",
+      "title": "Calendario",
+      "description": "Eventos publicados para tus vínculos y asignaciones vigentes.",
+      "origin": "recreación basada en código",
+      "publication_status": "apto como recreación, nunca como captura auténtica",
+      "source_files": [
+        "resources/js/Layouts/AppLayout.vue",
+        "resources/css/app.css",
+        "resources/js/Components/Brand.vue",
+        "resources/js/Components/Icon.vue",
+        "resources/js/Pages/Calendar/Index.vue",
+        "database/seeders/PortfolioDemoSeeder.php"
+      ],
+      "real_capture": false,
+      "demo_data": true,
+      "url_production": "assets/projects/school/01_Administracion/admin-calendario.png"
+    },
+    {
+      "file": "02_Docentes/docente-horarios.png",
+      "role": "teacher",
+      "title": "Horarios",
+      "description": "Programa clases con una vigencia definida y espacios disponibles.",
+      "origin": "recreación basada en código",
+      "publication_status": "apto como recreación, nunca como captura auténtica",
+      "source_files": [
+        "resources/js/Layouts/AppLayout.vue",
+        "resources/css/app.css",
+        "resources/js/Components/Brand.vue",
+        "resources/js/Components/Icon.vue",
+        "resources/js/Pages/Timetable/Index.vue",
+        "database/seeders/PortfolioDemoSeeder.php"
+      ],
+      "real_capture": false,
+      "demo_data": true,
+      "url_production": "assets/projects/school/02_Docentes/docente-horarios.png"
+    },
+    {
+      "file": "02_Docentes/docente-asistencia.png",
+      "role": "teacher",
+      "title": "Matemática",
+      "description": "Primero A · Lucía Demo",
+      "origin": "recreación basada en código",
+      "publication_status": "apto como recreación, nunca como captura auténtica",
+      "source_files": [
+        "resources/js/Layouts/AppLayout.vue",
+        "resources/css/app.css",
+        "resources/js/Components/Brand.vue",
+        "resources/js/Components/Icon.vue",
+        "resources/js/Pages/Attendance/Show.vue",
+        "database/seeders/PortfolioDemoSeeder.php"
+      ],
+      "real_capture": false,
+      "demo_data": true,
+      "url_production": "assets/projects/school/02_Docentes/docente-asistencia.png"
+    },
+    {
+      "file": "02_Docentes/docente-tareas.png",
+      "role": "teacher",
+      "title": "Tareas y entregas",
+      "description": "Prepara actividades para tus grupos y acompaña cada entrega.",
+      "origin": "recreación basada en código",
+      "publication_status": "apto como recreación, nunca como captura auténtica",
+      "source_files": [
+        "resources/js/Layouts/AppLayout.vue",
+        "resources/css/app.css",
+        "resources/js/Components/Brand.vue",
+        "resources/js/Components/Icon.vue",
+        "resources/js/Pages/Assignments/Index.vue",
+        "database/seeders/PortfolioDemoSeeder.php"
+      ],
+      "real_capture": false,
+      "demo_data": true,
+      "url_production": "assets/projects/school/02_Docentes/docente-tareas.png"
+    },
+    {
+      "file": "02_Docentes/docente-calificaciones.png",
+      "role": "teacher",
+      "title": "Matemática · Primer periodo DEMO",
+      "description": "Primero A · Publicado",
+      "origin": "recreación basada en código",
+      "publication_status": "apto como recreación, nunca como captura auténtica",
+      "source_files": [
+        "resources/js/Layouts/AppLayout.vue",
+        "resources/css/app.css",
+        "resources/js/Components/Brand.vue",
+        "resources/js/Components/Icon.vue",
+        "resources/js/Pages/Gradebooks/Show.vue",
+        "database/seeders/PortfolioDemoSeeder.php"
+      ],
+      "real_capture": false,
+      "demo_data": true,
+      "url_production": "assets/projects/school/02_Docentes/docente-calificaciones.png"
+    },
+    {
+      "file": "02_Docentes/docente-school-play.png",
+      "role": "teacher",
+      "title": "School Play",
+      "description": "Prepara actividades educativas reutilizables con preguntas y reglas versionadas.",
+      "origin": "recreación basada en código",
+      "publication_status": "apto como recreación, nunca como captura auténtica",
+      "source_files": [
+        "resources/js/Layouts/AppLayout.vue",
+        "resources/css/app.css",
+        "resources/js/Components/Brand.vue",
+        "resources/js/Components/Icon.vue",
+        "resources/js/Pages/Play/Index.vue",
+        "database/seeders/PortfolioDemoSeeder.php"
+      ],
+      "real_capture": false,
+      "demo_data": true,
+      "url_production": "assets/projects/school/02_Docentes/docente-school-play.png"
+    },
+    {
+      "file": "03_Estudiantes/estudiante-mi-comunidad.png",
+      "role": "student",
+      "title": "Mi comunidad de aprendizaje",
+      "description": "Consulta las asignaturas y la asistencia que tu institución ha registrado.",
+      "origin": "recreación basada en código",
+      "publication_status": "apto como recreación, nunca como captura auténtica",
+      "source_files": [
+        "resources/js/Layouts/AppLayout.vue",
+        "resources/css/app.css",
+        "resources/js/Components/Brand.vue",
+        "resources/js/Components/Icon.vue",
+        "resources/js/Pages/Portal/Index.vue",
+        "database/seeders/PortfolioDemoSeeder.php"
+      ],
+      "real_capture": false,
+      "demo_data": true,
+      "url_production": "assets/projects/school/03_Estudiantes/estudiante-mi-comunidad.png"
+    },
+    {
+      "file": "03_Estudiantes/estudiante-tarea.png",
+      "role": "student",
+      "title": "Exploramos proporciones en el jardín",
+      "description": "Alex Demo · Matemática",
+      "origin": "recreación basada en código",
+      "publication_status": "apto como recreación, nunca como captura auténtica",
+      "source_files": [
+        "resources/js/Layouts/AppLayout.vue",
+        "resources/css/app.css",
+        "resources/js/Components/Brand.vue",
+        "resources/js/Components/Icon.vue",
+        "resources/js/Pages/Learning/Assignment.vue",
+        "database/seeders/PortfolioDemoSeeder.php"
+      ],
+      "real_capture": false,
+      "demo_data": true,
+      "url_production": "assets/projects/school/03_Estudiantes/estudiante-tarea.png"
+    },
+    {
+      "file": "03_Estudiantes/estudiante-school-play.png",
+      "role": "student",
+      "title": "Mi School Play",
+      "description": "Participa en tu grupo o consulta tus resultados autorizados.",
+      "origin": "recreación basada en código",
+      "publication_status": "apto como recreación, nunca como captura auténtica",
+      "source_files": [
+        "resources/js/Layouts/AppLayout.vue",
+        "resources/css/app.css",
+        "resources/js/Components/Brand.vue",
+        "resources/js/Components/Icon.vue",
+        "resources/js/Pages/Play/LearningIndex.vue",
+        "database/seeders/PortfolioDemoSeeder.php"
+      ],
+      "real_capture": false,
+      "demo_data": true,
+      "url_production": "assets/projects/school/03_Estudiantes/estudiante-school-play.png"
+    },
+    {
+      "file": "03_Estudiantes/familia-mi-comunidad.png",
+      "role": "family",
+      "title": "Mi comunidad de aprendizaje",
+      "description": "Consulta las asignaturas y la asistencia que tu institución ha registrado.",
+      "origin": "recreación basada en código",
+      "publication_status": "apto como recreación, nunca como captura auténtica",
+      "source_files": [
+        "resources/js/Layouts/AppLayout.vue",
+        "resources/css/app.css",
+        "resources/js/Components/Brand.vue",
+        "resources/js/Components/Icon.vue",
+        "resources/js/Pages/Portal/Index.vue",
+        "app/Http/Controllers/LearningPortalController.php",
+        "database/seeders/PortfolioDemoSeeder.php"
+      ],
+      "real_capture": false,
+      "demo_data": true,
+      "url_production": "assets/projects/school/03_Estudiantes/familia-mi-comunidad.png"
+    },
+    {
+      "file": "05_Composiciones/school-portada-general-2048.png",
+      "role": "comp",
+      "title": "SCHOOL · Ecosistema educativo",
+      "description": "Composición de capturas recreadas basadas en las vistas Vue del repositorio SCHOOL.",
+      "origin": "composición editorial de recreaciones basadas en código",
+      "publication_status": "apto como recreación, nunca como captura auténtica",
+      "source_files": [
+        "app/Http/Controllers/DashboardController.php",
+        "app/Http/Controllers/LearningPortalController.php",
+        "database/seeders/PortfolioDemoSeeder.php",
+        "resources/css/app.css",
+        "resources/js/Components/Brand.vue",
+        "resources/js/Components/Icon.vue",
+        "resources/js/Layouts/AppLayout.vue",
+        "resources/js/Pages/Attendance/Show.vue",
+        "resources/js/Pages/Dashboard.vue",
+        "resources/js/Pages/Portal/Index.vue"
+      ],
+      "real_capture": false,
+      "demo_data": true,
+      "url_production": "assets/projects/school/05_Composiciones/school-portada-general-2048.png"
+    },
+    {
+      "file": "05_Composiciones/school-administracion-2048.png",
+      "role": "comp",
+      "title": "SCHOOL · Administración",
+      "description": "Composición de capturas recreadas basadas en las vistas Vue del repositorio SCHOOL.",
+      "origin": "composición editorial de recreaciones basadas en código",
+      "publication_status": "apto como recreación, nunca como captura auténtica",
+      "source_files": [
+        "app/Http/Controllers/DashboardController.php",
+        "database/seeders/PortfolioDemoSeeder.php",
+        "resources/css/app.css",
+        "resources/js/Components/Brand.vue",
+        "resources/js/Components/Icon.vue",
+        "resources/js/Layouts/AppLayout.vue",
+        "resources/js/Pages/Academic/Index.vue",
+        "resources/js/Pages/Dashboard.vue",
+        "resources/js/Pages/Enrollments/Index.vue",
+        "resources/js/Pages/Members/Index.vue"
+      ],
+      "real_capture": false,
+      "demo_data": true,
+      "url_production": "assets/projects/school/05_Composiciones/school-administracion-2048.png"
+    },
+    {
+      "file": "05_Composiciones/school-docentes-2048.png",
+      "role": "comp",
+      "title": "SCHOOL · Portal docente",
+      "description": "Composición de capturas recreadas basadas en las vistas Vue del repositorio SCHOOL.",
+      "origin": "composición editorial de recreaciones basadas en código",
+      "publication_status": "apto como recreación, nunca como captura auténtica",
+      "source_files": [
+        "database/seeders/PortfolioDemoSeeder.php",
+        "resources/css/app.css",
+        "resources/js/Components/Brand.vue",
+        "resources/js/Components/Icon.vue",
+        "resources/js/Layouts/AppLayout.vue",
+        "resources/js/Pages/Assignments/Index.vue",
+        "resources/js/Pages/Attendance/Show.vue",
+        "resources/js/Pages/Gradebooks/Show.vue",
+        "resources/js/Pages/Timetable/Index.vue"
+      ],
+      "real_capture": false,
+      "demo_data": true,
+      "url_production": "assets/projects/school/05_Composiciones/school-docentes-2048.png"
+    },
+    {
+      "file": "05_Composiciones/school-estudiantes-2048.png",
+      "role": "comp",
+      "title": "SCHOOL · Portal estudiantil",
+      "description": "Composición de capturas recreadas basadas en las vistas Vue del repositorio SCHOOL.",
+      "origin": "composición editorial de recreaciones basadas en código",
+      "publication_status": "apto como recreación, nunca como captura auténtica",
+      "source_files": [
+        "app/Http/Controllers/LearningPortalController.php",
+        "database/seeders/PortfolioDemoSeeder.php",
+        "resources/css/app.css",
+        "resources/js/Components/Brand.vue",
+        "resources/js/Components/Icon.vue",
+        "resources/js/Layouts/AppLayout.vue",
+        "resources/js/Pages/Learning/Assignment.vue",
+        "resources/js/Pages/Play/LearningIndex.vue",
+        "resources/js/Pages/Portal/Index.vue"
+      ],
+      "real_capture": false,
+      "demo_data": true,
+      "url_production": "assets/projects/school/05_Composiciones/school-estudiantes-2048.png"
+    },
+    {
+      "file": "05_Composiciones/school-school-play-2048.png",
+      "role": "comp",
+      "title": "SCHOOL · Actividades educativas",
+      "description": "Composición de capturas recreadas basadas en las vistas Vue del repositorio SCHOOL.",
+      "origin": "composición editorial de recreaciones basadas en código",
+      "publication_status": "apto como recreación, nunca como captura auténtica",
+      "source_files": [
+        "database/seeders/PortfolioDemoSeeder.php",
+        "resources/css/app.css",
+        "resources/js/Components/Brand.vue",
+        "resources/js/Components/Icon.vue",
+        "resources/js/Layouts/AppLayout.vue",
+        "resources/js/Pages/Play/Index.vue",
+        "resources/js/Pages/Play/LearningIndex.vue"
+      ],
+      "real_capture": false,
+      "demo_data": true,
+      "url_production": "assets/projects/school/05_Composiciones/school-school-play-2048.png"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+SCHOOL — IMÁGENES PARA PORTAFOLIO (3 nov 2026)
+
+ORIGEN Y LÍMITES
+Todas las imágenes PNG incluidas aquí son RECREACIONES BASADAS EN CÓDIGO, obtenidas por Chromium desde HTML/CSS propios elaborados con referencia a AppLayout.vue, los templates de cada página y app.css del repositorio privado jeremyvg21/School. No son las capturas reales generadas por Codex en el equipo del usuario.
+Datos: semilla PortfolioDemoSeeder.php (Colegio Horizonte, Alex Demo, Lucía Demo, Matemática, etc.), exclusivamente ficticios.
+En cada PNG figura la marca RECREACIÓN BASADA EN CÓDIGO · DEMO · DATOS DE PRUEBA. Las composiciones contienen el mismo aviso.
+
+ADVERTENCIA DE FIDELIDAD
+No es una conversión ni ejecución literal del proyecto Laravel/Vue. HTML reconstruido de manera estática, con disposición, etiquetas y paleta obtenidas de la fuente; no presupone interacciones ni exactitud píxel a píxel. Las pantallas reales ya renderizadas por Codex deben tener prioridad en la versión definitiva.
+
+SCHOOL GAMES SOCIAL
+No se encontró implementación corroborada de un feed, publicación de fotografías, comentarios o galería social dentro de SCHOOL. Las vistas de School Play son para preguntas y juegos académicos. No se generaron pantallas sociales.
+
+ESTRUCTURA
+01_Administracion / 02_Docentes / 03_Estudiantes (incluye familia) / 04_School_Play / 05_Composiciones.
+manifest.json: fuentes y procedencia por imagen. inventario_capturas.csv: inventario para integración.
+vista_previa_galeria.html: galería estática con filtros, zoom y pies descriptivos, para abrir localmente en navegador.
+_HTML_Recreaciones: HTML utilizados para generar cada PNG, facilitando revisión y ajustes.
+
+PUBLICACIÓN EN GITHUB PAGES
+NO publicado automáticamente: no hay capturas reales locales en el conector GitHub y el portafolio debe autorizar que estos PNG se muestren claramente como recreaciones. Para integrarlo, subir la carpeta de imágenes a assets/projects/school/ y adaptar los enlaces en projects/school.html. El contenido del proyecto profesional K2J debe permanecer separado del proyecto propio SCHOOL.
+No publicar passwords, archivos .env.portfolio, logs privados ni código fuente del repo SCHOOL.

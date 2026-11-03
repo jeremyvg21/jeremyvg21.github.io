@@ -1,0 +1,11 @@
+INTEGRACIÓN GITHUB PAGES - SCHOOL
+
+ARCHIVOS PREPARADOS (NO PUBLICADOS)
+projects/school.html
+assets/projects/school/ (23 imágenes y manifest.json)
+
+Para desplegar en jeremyvg21/jeremyvg21.github.io: copiar las carpetas projects/ y assets/ encima de las existentes SIN borrar ni reemplazar otros proyectos. Después añadir una tarjeta en index.html con href="projects/school.html" y portada assets/projects/school/05_Composiciones/school-portada-general-2048.png. Recomiendo comenzar en una rama draft, verificar enlaces/galería y publicar solamente después de revisar la distinción entre recreaciones y capturas auténticas.
+
+Privacidad: evitar contraseñas y material propietario. Todas son recreaciones a partir del repositorio SCHOOL; no usar estas imágenes para atribuirlas al software K2J.
+
+Si tienes las 34 capturas reales de Codex, pueden incorporarse de forma separada en otra carpeta con origen "captura real" tras revisar que usen solamente datos ficticios.
